@@ -168,8 +168,7 @@ href="https://www.w3.org/TR/vc-overview/">Verifiable Credentials Overview</a>
 W3C Note, published by the Working Group. The Note explains some of the
 terminology used in this charter, e.g., Verifiable Credentials and
 Presentations, Data Integrity, and cryptosuites. It also provides a technical
-overview of how the various specifications listed as
-<a href="#deliverables">deliverables</a> relate to one another.
+overview of how the various specifications relate to one another.
         </p>
 
         <p>
@@ -188,7 +187,7 @@ related notes.
 For new Recommendations listed <a href="#deliverables">below</a>, the Working
 Group will complete them and then will continue to maintain those
 specifications. For all published Recommendations, the Working Group will
-maintain those specifications ensuring to not introduce any
+maintain those specifications ensuring but not introducing any
 <a href="https://www.w3.org/policies/process/20231103/#class-4">Class 4
 changes</a> except for serious security issues that arise.
         </p>
@@ -258,6 +257,17 @@ radio frequency, screen reader, or braille output.
               <p>
                 <b>Adopted Draft:</b> <a href="https://www.w3.org/TR/vc-render-method/">Verifiable Credential Render Method v1.0</a>
               </p>
+
+              <p>
+                <b>Exclusion Draft:</b>
+                <a href='https://www.w3.org/TR/2025/WD-vc-render-method-20251030/'>Verifiable Credential Rendering Methods v0.9
+                (W3C First Public Working Draft)</a>
+                Exclusion period <b>began</b> 2025-10-30; Exclusion period <b>ends</b> 2026-03-29.
+              </p>
+              <p>
+                <b>Exclusion Draft Charter:</b> <a href="https://www.w3.org/2024/10/vc-wg-charter.html">2024 VCWG Charter</a>
+              </p>
+
             </dd>
 
             <dt id="confidence" class="spec">Verifiable Credential Confidence Method v1.0</dt>
@@ -274,6 +284,16 @@ particular subject identified in a verifiable credential.
 
               <p>
                 <b>Adopted Draft:</b> <a href="https://www.w3.org/TR/vc-confidence-method/">Verifiable Credential Confidence Method v1.0</a>
+              </p>
+
+              <p>
+                <b>Exclusion Draft:</b>
+                <a href='https://www.w3.org/TR/2025/WD-vc-confidence-method-20251030/'>Confidence Method v1.0
+                  (W3C First Public Working Draft)</a>
+                Exclusion period <b>began</b> 2025-10-30; Exclusion period <b>ends</b> 2026-03-29.
+              </p>
+              <p>             
+                <b>Exclusion Draft Charter:</b> <a href="https://www.w3.org/2024/10/vc-wg-charter.html">2024 VCWG Charter</a>
               </p>
             </dd>
 
@@ -371,77 +391,13 @@ using standard printing processes.
 
         </section>
 
-        <section id="incubation">
-          <!-- If no incubation or not a Working Group, delete the section. -->
-          <h3>
-            Tentative Deliverables
-          </h3>
-          <p>
-Depending on the
-<a href="https://www.w3.org/guide/incubation.html">incubation</a> progress,
-interest from multiple implementers, and the consensus of the Group
-participants, the Working Group may adopt the following documents as Rec-track
-specifications:
-          </p>
-
-          <dl>
-
-            <dt id="wireless" class="spec"><a href="https://w3c-ccg.github.io/vc-wireless/">Verifiable Credentials Over Wireless v1.0</a></dt>
-            <dd>
-              <p>
-This specification establishes a number of wireless protocols that can be used
-to request and present verifiable credentials over electromagnetic communication
-devices such ones supporting Near Field Communication (NFC) and Bluetooth Low
-Energy (BLE).
-              </p>
-              <p class="draft-status"><b>Draft state:</b>
-                <a href="https://w3c-ccg.github.io/vc-wireless/">Community Group Draft</a></p>
-            </dd>
-
-            <dt id="refresh" class="spec"><a href="https://w3c-ccg.github.io/vc-refresh/">Verifiable Credentials Refresh v1.0</a></dt>
-            <dd>
-              <p>
-Verifiable Credentials can expire. It is useful to provide instructions on
-refreshing the credential for the times when expiration is imminent or has
-already occurred. The refresh can be performed manually or, with the prior
-consent of the credential holder, automatically. This specification defines
-manual and automatic refresh mechanisms that Verifiable Credential issuers can
-use to enhance the experience when using their credentials.
-              </p>
-              <p class="draft-status"><b>Draft state:</b>
-                <a href="https://w3c-ccg.github.io/vc-refresh/">Community Group Draft</a></p>
-            </dd>
-
-            <dt id="quantumsafe" class="spec"><a href="https://w3c-ccg.github.io/di-quantum-safe/">Quantum-Safe Cryptosuites v1.0</a></dt>
-            <dd>
-              <p>
-This specification describes several Data Integrity Cryptosuites for use when
-generating a digital signature using Post-Quantum digital signature algorithms.
-              </p>
-              <p class="draft-status"><b>Draft state:</b>
-                <a href="https://w3c-ccg.github.io/di-quantum-safe/">Community Group Draft</a></p>
-            </dd>
-
-            <dt id="viv" class="spec"><a href="https://w3c-ccg.github.io/verifiable-issuers-verifiers/">Verifiable Issuers and Verifiers v1.0</a></dt>
-            <dd>
-              <p>
-This specification defines a data model for an entity to express other entities
-that it trusts to issue or verify specific types of verifiable credentials.
-              </p>
-              <p class="draft-status"><b>Draft state:</b>
-                <a href="https://w3c-ccg.github.io/verifiable-issuers-verifiers/">Community Group Draft</a></p>
-            </dd>
-
-          </dl>
-        </section>
-
         <section>
           <h3>
             Maintenance Specifications
           </h3>
           <p>
   The Working Group will maintain the following W3C normative specifications
-  and will not make any
+  without making any
   <a href="https://www.w3.org/policies/process/20231103/#class-4">Class 4
   changes</a> except for serious security issues that arise.
           </p>
@@ -648,6 +604,78 @@ interacting with, the controller of an identifier.
                 <b>Exclusion Draft Charter:</b> <a href="https://www.w3.org/2022/06/verifiable-credentials-wg-charter.html">2022 VCWG Charter</a></b>
               </p>
             </dd>
+          </dl>
+        </section>
+
+        <section id="incubation">
+          <!-- If no incubation or not a Working Group, delete the section. -->
+          <h3>
+            Tentative Deliverables
+          </h3>
+          <p>
+            Depending on the
+            <a href="https://www.w3.org/guide/incubation.html">incubation</a> progress,
+            interest from multiple implementers, and the consensus of the Group
+            participants, the Working Group may adopt the following documents as Rec-track
+            specifications:
+          </p>
+        
+          <dl>
+        
+            <dt id="wireless" class="spec"><a href="https://w3c-ccg.github.io/vc-wireless/">Verifiable Credentials Over Wireless
+                v1.0</a></dt>
+            <dd>
+              <p>
+                This specification establishes a number of wireless protocols that can be used
+                to request and present verifiable credentials over electromagnetic communication
+                devices such ones supporting Near Field Communication (NFC) and Bluetooth Low
+                Energy (BLE).
+              </p>
+              <p class="draft-status"><b>Draft state:</b>
+                <a href="https://w3c-ccg.github.io/vc-wireless/">Community Group Draft</a>
+              </p>
+            </dd>
+        
+            <dt id="refresh" class="spec"><a href="https://w3c-ccg.github.io/vc-refresh/">Verifiable Credentials Refresh
+                v1.0</a></dt>
+            <dd>
+              <p>
+                Verifiable Credentials can expire. It is useful to provide instructions on
+                refreshing the credential for the times when expiration is imminent or has
+                already occurred. The refresh can be performed manually or, with the prior
+                consent of the credential holder, automatically. This specification defines
+                manual and automatic refresh mechanisms that Verifiable Credential issuers can
+                use to enhance the experience when using their credentials.
+              </p>
+              <p class="draft-status"><b>Draft state:</b>
+                <a href="https://w3c-ccg.github.io/vc-refresh/">Community Group Draft</a>
+              </p>
+            </dd>
+        
+            <dt id="quantumsafe" class="spec"><a href="https://w3c-ccg.github.io/di-quantum-safe/">Quantum-Safe Cryptosuites
+                v1.0</a></dt>
+            <dd>
+              <p>
+                This specification describes several Data Integrity Cryptosuites for use when
+                generating a digital signature using Post-Quantum digital signature algorithms.
+              </p>
+              <p class="draft-status"><b>Draft state:</b>
+                <a href="https://w3c-ccg.github.io/di-quantum-safe/">Community Group Draft</a>
+              </p>
+            </dd>
+        
+            <dt id="viv" class="spec"><a href="https://w3c-ccg.github.io/verifiable-issuers-verifiers/">Verifiable Issuers and
+                Verifiers v1.0</a></dt>
+            <dd>
+              <p>
+                This specification defines a data model for an entity to express other entities
+                that it trusts to issue or verify specific types of verifiable credentials.
+              </p>
+              <p class="draft-status"><b>Draft state:</b>
+                <a href="https://w3c-ccg.github.io/verifiable-issuers-verifiers/">Community Group Draft</a>
+              </p>
+            </dd>
+        
           </dl>
         </section>
 
@@ -1238,11 +1266,17 @@ Process Document requires.
                 <td>2025-10-09 (Ivan): Appointed Phil Archer as co-chair; updated Brent's affiliation</td>
               </tr>
               <tr>
+                <th>Working on the new charter</th>
+                <td>2025-11-24</td>
+                <td></td>
+                <td>2025-11-24 (Ivan): Work started as a replacement of the <a href="https://www.w3.org/2024/10/vc-wg-charter.html">previous charter</a>.</td>
+              </tr>
+              <!-- <tr>
                 <th>Work starts with <a href="https://www.w3.org/2026/02/vc-wg-charter.html">new charter</a></th>
                 <td>2026-04-01</td>
                 <td>2028-04-01</td>
                 <td></td>
-              </tr>
+              </tr> -->
             </tbody>
           </table>
 
@@ -1257,14 +1291,14 @@ Process Document requires.
         <a href="mailto:ivan@w3.org">Ivan Herman</a>
       </address>
 
-<p class="copyright">Copyright © 2025 <a href="https://www.w3.org/">World Wide Web Consortium</a>.<br>
+<p class="copyright">Copyright © 2026 <a href="https://www.w3.org/">World Wide Web Consortium</a>.<br>
   <abbr title="World Wide Web Consortium">W3C</abbr><sup>®</sup>
   <a href="https://www.w3.org/policies/#disclaimers">liability</a>,
   <a href="https://www.w3.org/policies/#trademarks">trademark</a> and
       <a rel="license" href="https://www.w3.org/copyright/software-license/" title="W3C Software and Document Notice and License">permissive document license</a> rules apply.</p>
 
       <hr>
-      <p><a href="https://github.com/w3c/charter-drafts">Yes, it's on GitHub!</a>.</p>
+      <p><a href="https://github.com/w3c/vc-charter-2026/">Yes, it's on GitHub!</a>.</p>
     </footer>
 
   </body>
