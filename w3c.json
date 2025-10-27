@@ -1,0 +1,11 @@
+{
+  "group": [
+    "wg/vc"
+  ],
+  "contacts": [
+    "pchampin",
+    "iherman"
+  ],
+  "policy": "open",
+  "repo-type": "process"
+}
